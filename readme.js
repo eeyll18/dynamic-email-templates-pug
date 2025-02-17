@@ -1,0 +1,6 @@
+/*
+
+    pug allows us to write cleaner templates with less repetition
+    
+
+*/
