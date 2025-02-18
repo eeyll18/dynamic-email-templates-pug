@@ -1,17 +1,5 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-        style.
-            h1{
-                color:green;
-            }
-            p{
-                color:blue;
-                font-size:20px
-            }
-    body 
-        h1 Welcome #{username} 
-        p You are registered to the application
+extends baseMessage 
+
+block content
+    h1 Welcome #{username} 
+    p You are registered to the application
