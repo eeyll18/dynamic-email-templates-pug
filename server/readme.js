@@ -1,7 +1,0 @@
-/*
-
-    pug allows us to write cleaner templates with less repetition
-    pug uses indentation to work out which tags are nasted inside
-    each other.
-
-*/
