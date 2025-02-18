@@ -12,8 +12,7 @@ This project demonstrates how to send dynamic emails using **Node.js**, **Nodema
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/dynamic-email-sender.git
-   cd dynamic-email-sender
+   git clone https://github.com/eeyll18/dynamic-email-templates-pug.git
    ```
 
 2. Install dependencies:
