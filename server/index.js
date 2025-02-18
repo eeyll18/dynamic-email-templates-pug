@@ -1,5 +1,6 @@
 require("dotenv").config();
 const nodemailer = require("nodemailer");
+const pug = require('pug');
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -13,7 +14,7 @@ const mailOptions = {
   from: "edaeylulgunay2@gmail.com",
   to: "trhalilbey@gmail.com",
   subject: "Test Email",
-  text: "This is a test email from Nodemailer.",
+  html: pug.renderFile(__dirname + '/views/welcomeMessage.pug',{username:"halil"}),
 };
 
 transporter.sendMail(mailOptions, function (err, info) {
